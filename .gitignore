@@ -1,0 +1,84 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Django database files
+db.sqlite3
+
+# Media and static files
+/media/
+/static/
+
+# Logs
+*.log
+
+# Local settings
+local_settings.py
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Django secret key (optional)
+secret_key.txt
+
+# Coverage reports
+.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# pytest
+.cache
+
+# Pytest-related configuration files
+pytest.ini
+tox.ini
+
+# Django debug toolbar
+debug_toolbar/
+
+# Docker
+docker-compose.override.yml
+*.pid
+*.sock
+
+# MySQL and PostgreSQL
+*.sql
+*.sqlite3
+
+# Pipenv
+Pipfile.lock
+
+# Environment variables
+.env
+
+# .env file for development
+.env.dev
+
+# Django REST Framework JWT token storage (optional)
+jwt_tokens/
+
+# IDE settings (optional)
+.vscode/
+.idea/
+
+# Other Django / DRF-specific ignores
+*.pot
+*.pyc
+*.pyo
